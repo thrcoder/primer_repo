@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Incorporacion de font caracteristica-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!--Titulo de pagina, icono y SEO-->
+    <link rel="shortcut icon" type="image/png" href="../img/miniatura.png">
+    <title>Presupuestos | TC-LIMP</title>
+    <meta name="description"
+        content="Pedi tu presupuesto de TC-LIMP. Pedinos tu presupuesto personalizado y a la brevedad nos pondremos en contacto con el mejor precio.">
+    <meta name="keywords" content="Pedir presupuesto, TC-limp, presupuesto, trabajos, cuanto sale, costo, contacto, plata">
+    <!--Links a los estilos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilosDos.css">
+</head>
+<body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand flex-grow-1 mr-auto" href="../index.html">
+                <img src="../img/logoBien.png" alt="" width="50">
+                TC-LIMP
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/limpieza.html">LIMPIEZA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/equipo.html">EQUIPO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">PRESUPUESTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/motivacion.html">MOTIVACION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/nosotros.html">NOSOTROS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Seccion principal-->
+    <main class="mainContentPresupuestos">
+        <section class="presupuestoEspecial">
+            <h1 class="titImportante" id="presu">¡PEDINOS TU PRESUPUESTO!</h1>
+            <h2 class="titTerc">Completa el formulario y a la brevedad nos pondremos en contacto</h2>
+            <br>
+            <form>
+                <div class="mb-3 formEstiloMio">
+                    <label for="nombreEmpresa" class="form-label">Nombre o razon social:</label>
+                    <input type="text" class="form-control" id="nombreEmpresa" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 formEstiloMio">
+                    <label for="emailInput" class="form-label">Mail:</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">No le vamos a compartir tu mail a nadie.</div>
+                </div>
+                <div class="mb-3 formEstiloMio">
+                    <label for="exampleInputPassword1" class="form-label">Asunto:</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 formEstiloMio">
+                    <label for="textAreaMail" class="form-label">Mensaje:</label>
+                    <textarea type="text" class="form-control" id="textAreaMail">Hola! Quiero pedir un presupuesto.</textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Tengo prisa</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck2"></input>
+                    <label class="form-check-label" for="exampleCheck2">No estoy apurado</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+        <section class="moneyMoney">
+            <img src="../img/money1.png" alt="simbolo de plata">
+            <img src="../img/money1.png" alt="simbolo de plata">
+            <img src="../img/money1.png" alt="simbolo de plata">
+            <img src="../img/money1.png" alt="simbolo de plata">
+        </section>
+    </main>
+    <!--Seccion de footer-->
+    <footer class="bd-footer py-5 mt-5 bg-light">
+        <div class="container py-5">
+            <div class="row flex-wrap">
+                <div class="col-lg-2 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+                        aria-label="Bootstrap">
+                        <a class="navbar-brand flex-grow-1 mr-auto" href="#">
+                            <img src="../img/logoBien.png" alt="" width="80">
+                        </a>
+                        <span class="fs-5">TC-LIMP S.A.</span>
+                    </a>
+                    <ul class="list-unstyled" id="legales">
+                        <li class="mb-2">Las amigdalas 4586 1°Piso F</li>
+                        <li class="mb-2">Tel: 011 1111-2222</li>
+                    </ul>
+                    <div class="redesSociales">
+                        <a href=""><img src="../img/facebook--v1.png" alt="logo facebook"></a>
+                        <a href=""><img src="../img/instagram_logo_icon.png" alt="logo instagram"></a>
+                        <a href=""><img src="../img/linkedin.png" alt="logo linkedin"></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5><a href="../paginas/limpieza.html">LIMPIEZA</a></h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="../paginas/limpieza.html#limpiezaLimpieza">Limpieza</a></li>
+                        <li class="mb-2"><a href="../paginas/limpieza.html#caliCali">Calidad</a></li>
+                        <li class="mb-2"><a href="../paginas/limpieza.html#ordOrd">Orden</a></li>
+                        <li class="mb-2"><a href="../paginas/limpieza.html#inmInm">Inmobiliarias</a></li>
+                        <li class="mb-2"><a href="../paginas/limpieza.html#finFin">Finales de obra</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5><a href="../paginas/equipo.html" class="titSec">EQUIPO</a></h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="../paginas/equipo.html#eqEq">Hay equipo, tremendo equipo</a></li>
+                        <li class="mb-2"><a href="../paginas/equipo.html#armar">Arma tu equipo</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5><a href="#" class="titSec">PRESUPUESTOS</a></h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#presu">Pedi tu Presupuesto</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5><a href="../paginas/motivacion.html" class="titSec">MOTIVACION</a></h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="../paginas/motivacion.html#musicMoti">Musica Motivadora</a></li>
+                        <li class="mb-2"><a href="../paginas/motivacion.html#vidSat">Videos Satisfactorios</a></li>
+                        <li class="mb-2"><a href="../paginas/motivacion.html#imgMot">Imagenes Motivadoras</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-1 mb-3">
+                    <h5><a href="../paginas/nosotros.html" class="titSec">NOSOTROS</a></h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="../paginas/nosotros.html#somos">Somos TC-LIMP</a></li>
+                        <li class="mb-2"><a href="../paginas/nosotros.html#petc">Porque elegir TC-LIMP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="derechos">
+        <p>Todos los derechos reservados. By Tomas Reynolds. Marca registrada. Si nos robas la idea te hacemos juicio.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+</body>         
+</html>
